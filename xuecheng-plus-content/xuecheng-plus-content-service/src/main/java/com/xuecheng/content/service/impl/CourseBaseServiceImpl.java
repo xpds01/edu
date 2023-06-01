@@ -148,7 +148,7 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
             return courseMarketMapper.insert(courseMarket);
         } else {
             //将courseMarketNew拷贝到courseMarket
-            BeanUtils.copyProperties(courseMarketNew, courseMarket);
+            BeanUtils.copyProperties(courseMarket,courseMarketNew);
             //替换id
             courseMarket.setId(courseMarket.getId());
             //更新
