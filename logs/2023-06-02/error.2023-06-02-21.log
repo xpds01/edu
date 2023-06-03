@@ -1,0 +1,28 @@
+2023-06-02 21:22:03,760 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63040 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63040 or configure this application to listen on another port.
+
+2023-06-02 21:23:21,084 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63040 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63040 or configure this application to listen on another port.
+

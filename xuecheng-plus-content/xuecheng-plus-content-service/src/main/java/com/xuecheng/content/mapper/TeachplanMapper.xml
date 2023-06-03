@@ -44,6 +44,7 @@
     <sql id="Base_Column_List">
         id, pname, parentid, grade, media_type, start_time, end_time, description, timelength, orderby, course_id, course_pub_id, status, is_preview, create_date, change_date
     </sql>
+
     <select id="selectTreeNodes" resultMap="treeNodeResultMap" parameterType="long">
         select             one.id             one_id,
                            one.pname          one_pname,
@@ -75,5 +76,11 @@
           and one.course_id = #{courseId}
         order by one.orderby,two.orderby
     </select>
+    <delete id="deleteTeachplanId" parameterType="long" >
+        DELETE FROM teachplan
+        WHERE parentId = #{parentId} AND grade = 1 AND NOT EXISTS
+                (SELECT * FROM teachplan WHERE parentId = #{parentId} AND grade = 2)
+    </delete>
+
 
 </mapper>

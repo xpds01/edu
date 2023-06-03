@@ -1,144 +1,172 @@
-2023-06-01 18:20:13,461 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m41s534ms642µs400ns).
-2023-06-01 18:20:13,461 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m41s534ms642µs400ns).
-2023-06-01 18:20:13,465 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:20:13,465 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:20:13,465 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,465 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10f6f44d: (connection has passed maxLifetime)
-2023-06-01 18:20:13,467 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10f6f44d: (connection has passed maxLifetime)
-2023-06-01 18:20:13,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e16d056: (connection has passed maxLifetime)
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e16d056: (connection has passed maxLifetime)
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e1ee19a: (connection has passed maxLifetime)
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e1ee19a: (connection has passed maxLifetime)
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b4ade9f: (connection has passed maxLifetime)
-2023-06-01 18:20:13,475 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b4ade9f: (connection has passed maxLifetime)
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b0b3068: (connection has passed maxLifetime)
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b0b3068: (connection has passed maxLifetime)
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7090984f: (connection has passed maxLifetime)
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7090984f: (connection has passed maxLifetime)
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@483374e7: (connection has passed maxLifetime)
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@483374e7: (connection has passed maxLifetime)
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f2bda6d: (connection has passed maxLifetime)
-2023-06-01 18:20:13,476 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f2bda6d: (connection has passed maxLifetime)
-2023-06-01 18:20:13,477 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,477 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,477 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f042522: (connection has passed maxLifetime)
-2023-06-01 18:20:13,477 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f042522: (connection has passed maxLifetime)
-2023-06-01 18:20:13,478 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,478 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,478 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@410b848f: (connection has passed maxLifetime)
-2023-06-01 18:20:13,478 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@410b848f: (connection has passed maxLifetime)
-2023-06-01 18:20:13,478 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,478 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:13,492 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27608aa7
-2023-06-01 18:20:13,492 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27608aa7
-2023-06-01 18:20:13,512 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@665d809c
-2023-06-01 18:20:13,512 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@665d809c
-2023-06-01 18:20:13,526 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57f14444
-2023-06-01 18:20:13,526 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57f14444
-2023-06-01 18:20:13,543 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6727fd3
-2023-06-01 18:20:13,543 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6727fd3
-2023-06-01 18:20:13,557 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@113f6d53
-2023-06-01 18:20:13,557 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@113f6d53
-2023-06-01 18:20:13,568 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aefe865
-2023-06-01 18:20:13,568 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aefe865
-2023-06-01 18:20:13,587 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74e651d3
-2023-06-01 18:20:13,587 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74e651d3
-2023-06-01 18:20:13,600 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@638bfbf5
-2023-06-01 18:20:13,600 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@638bfbf5
-2023-06-01 18:20:13,611 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35b1ae1b
-2023-06-01 18:20:13,611 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35b1ae1b
-2023-06-01 18:20:13,621 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b852209
-2023-06-01 18:20:13,621 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b852209
-2023-06-01 18:20:31,326 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:20:31,326 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:20:31,326 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:31,326 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:43,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:20:43,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:20:43,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:20:43,468 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:21:01,327 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:21:01,327 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:21:01,327 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:21:01,327 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:21:13,481 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:21:13,481 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:21:13,481 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:21:13,481 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:21:31,331 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:21:31,331 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:21:31,333 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:21:31,333 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:21:43,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:21:43,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:21:43,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:21:43,482 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:22:01,341 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:22:01,341 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:22:01,341 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:22:01,341 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:22:13,483 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:22:13,483 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:22:13,483 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:22:13,483 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:22:31,347 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:22:31,347 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:22:31,347 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:22:31,347 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:22:43,486 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:22:43,486 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:22:43,486 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:22:43,486 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:23:01,363 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:23:01,363 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:23:01,363 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:23:01,363 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:23:13,496 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:23:13,496 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:23:13,496 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:23:13,496 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:23:31,376 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:23:31,376 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:23:31,376 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:23:31,376 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:23:43,498 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:23:43,498 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:23:43,498 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:23:43,498 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:24:01,391 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:24:01,391 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:24:01,391 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:24:01,391 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:24:13,508 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:24:13,508 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-06-01 18:24:13,508 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2023-06-01 18:24:13,508 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-06-03 20:45:14,055 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-06-03 20:45:14,055 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-06-03 20:45:14,773 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-03 20:45:14,773 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-03 20:45:14,845 INFO [main][GenericScope.java:295] - BeanFactory id=6289c406-5227-303d-b7dd-62102dc0718c
+2023-06-03 20:45:14,845 INFO [main][GenericScope.java:295] - BeanFactory id=6289c406-5227-303d-b7dd-62102dc0718c
+2023-06-03 20:45:15,144 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-06-03 20:45:15,144 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-06-03 20:45:15,153 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-06-03 20:45:15,153 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-06-03 20:45:15,153 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-06-03 20:45:15,153 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-06-03 20:45:15,154 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-06-03 20:45:15,154 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-06-03 20:45:15,262 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-06-03 20:45:15,262 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-06-03 20:45:15,262 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1191 ms
+2023-06-03 20:45:15,262 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1191 ms
+2023-06-03 20:45:15,366 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-06-03 20:45:15,366 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-06-03 20:45:15,429 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@668625f5'
+2023-06-03 20:45:15,429 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@668625f5'
+2023-06-03 20:45:15,430 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-06-03 20:45:15,430 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-06-03 20:45:17,634 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-06-03 20:45:17,634 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-06-03 20:45:17,639 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-06-03 20:45:17,639 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-06-03 20:45:17,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-06-03 20:45:17,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-06-03 20:45:17,657 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-06-03 20:45:17,657 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-06-03 20:45:17,659 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-06-03 20:45:17,659 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-06-03 20:45:17,662 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-06-03 20:45:17,662 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-06-03 20:45:17,664 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-06-03 20:45:17,664 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-06-03 20:45:17,665 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-06-03 20:45:17,665 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-06-03 20:45:17,666 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-06-03 20:45:17,666 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-06-03 20:45:17,667 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-06-03 20:45:17,667 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-06-03 20:45:17,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-06-03 20:45:17,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-06-03 20:45:17,672 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-06-03 20:45:17,672 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-06-03 20:45:17,674 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-06-03 20:45:17,674 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-06-03 20:45:17,676 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-06-03 20:45:17,676 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-06-03 20:45:17,678 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-06-03 20:45:17,678 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-06-03 20:45:17,680 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-06-03 20:45:17,680 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-06-03 20:45:17,682 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-06-03 20:45:17,682 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-06-03 20:45:17,944 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+2023-06-03 20:45:17,944 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+2023-06-03 20:45:17,947 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-06-03 20:45:17,947 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-06-03 20:45:17,956 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-03 20:45:17,956 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-03 20:45:17,966 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.MediaApplication.main(MediaApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 more
+2023-06-03 20:45:17,966 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.MediaApplication.main(MediaApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 more
+2023-06-03 20:45:17,973 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-06-03 20:45:17,973 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-06-03 20:45:17,973 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-06-03 20:45:17,973 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end

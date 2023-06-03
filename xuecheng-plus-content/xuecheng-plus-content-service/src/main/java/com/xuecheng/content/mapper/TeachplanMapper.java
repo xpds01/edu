@@ -17,4 +17,8 @@ import java.util.List;
 @Mapper
 public interface TeachplanMapper extends BaseMapper<Teachplan> {
     List<TeachplanDto> selectTreeNodes(Long courseId);
+
+    //删除这一章节下的所有计划
+    void deleteTeachplanId(Long teachplanId);
+
 }

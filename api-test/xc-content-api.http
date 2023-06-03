@@ -1,5 +1,5 @@
 ### 查询课程分类
-GET {{content_host}}/content/course-category/tree-nodes
+GET {{gateway_host}}/content/course-category/tree-nodes
 
 ### 创建课程
 POST {{content_host}}/content/course
@@ -25,7 +25,7 @@ Content-Type: application/json
 }
 
 ### 根据课程id查询课程
-GET {{content_host}}/content/course/1
+GET {{gateway_host}}/content/course/1
 Content-Type: application/json
 
 ### 修改课程
@@ -50,3 +50,12 @@ Content-Type: application/json
 
 GET {{content_host}}/content/teachplan/74/tree-nodes
 Content-Type: application/json
+
+### 课程查询列表
+POST {{gateway_host}}/content/course/list?pageNo=2&pageSize=1
+Content-Type: application/json
+
+{
+  "auditStatus": "202002",
+  "courseName": ""
+}
