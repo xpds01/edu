@@ -1,0 +1,38 @@
+2023-06-19 23:00:00,115 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2023-06-19 23:00:00,115 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2023-06-19 23:00:00,115 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2023-06-19 23:00:00,115 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: []
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for media-api obtained from Discovery client: []
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: []
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for media-api obtained from Discovery client: []
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: []
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for media-api obtained from Discovery client: []
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: []
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for media-api obtained from Discovery client: []
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2023-06-19 23:00:00,221 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2023-06-19 23:00:00,222 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api]: clearing server list (SET op)
+2023-06-19 23:00:00,222 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api]: clearing server list (SET op)
+2023-06-19 23:00:00,222 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2023-06-19 23:00:00,222 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2023-06-19 23:00:00,222 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2023-06-19 23:00:00,222 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2023-06-19 23:00:00,222 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api_unknown]: clearing server list (SET op)
+2023-06-19 23:00:00,222 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api_unknown]: clearing server list (SET op)
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for system-api obtained from Discovery client: [10.150.135.223:63110]
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for system-api obtained from Discovery client: [10.150.135.223:63110]
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [system-api]: clearing server list (SET op)
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [system-api]:  addServer [10.150.135.223:63110]
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[10.150.135.223:63110]}
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [system-api_unknown]: clearing server list (SET op)
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [system-api_unknown]:  addServer [10.150.135.223:63110]
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for system-api obtained from Discovery client: [10.150.135.223:63110]
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for system-api obtained from Discovery client: [10.150.135.223:63110]
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [system-api]: clearing server list (SET op)
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [system-api]:  addServer [10.150.135.223:63110]
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[10.150.135.223:63110]}
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [system-api_unknown]: clearing server list (SET op)
+2023-06-19 23:00:00,242 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [system-api_unknown]:  addServer [10.150.135.223:63110]

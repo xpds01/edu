@@ -4,105 +4,116 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381a4489-8aae-4e58-b7ed-b4b6966aaec4" name="变更" comment="课程的删除,教师的添加,修改,删除,课程计划的排序,上移,下移">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-test/xc-media-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/error.2023-06-01-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/error.2023-06-01-16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/info.2023-06-01-15.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/info.2023-06-01-16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/info.2023-06-01-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/info.2023-06-01-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/info.2023-06-01-19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/info.2023-06-01-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/info.2023-06-01-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-01/info.2023-06-01-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-02/error.2023-06-02-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-02/error.2023-06-02-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-02/info.2023-06-02-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-06-02/info.2023-06-02-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/java/com/xuecheng/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/resources/log4j2-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/test/java/com/xuecheng/XuechengPlusGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/MediaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/media/api/MediaFilesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/com/xuecheng/MediaApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/com/xuecheng/media/api/MediaFilesController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/log4j2-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/src/main/java/com/xuecheng/media/model/dto/QueryMediaParamsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/src/main/java/com/xuecheng/media/model/dto/UploadFileParamsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/src/main/java/com/xuecheng/media/model/dto/UploadFileResultDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/src/main/java/com/xuecheng/media/model/po/MediaFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/src/main/java/com/xuecheng/media/model/po/MediaProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/src/main/java/com/xuecheng/media/model/po/MediaProcessHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/src/main/java/com/xuecheng/media/model/po/MqMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/src/main/java/com/xuecheng/media/model/po/MqMessageHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/target/classes/com/xuecheng/media/model/dto/QueryMediaParamsDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/target/classes/com/xuecheng/media/model/po/MediaFiles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/target/classes/com/xuecheng/media/model/po/MediaProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/target/classes/com/xuecheng/media/model/po/MediaProcessHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/target/classes/com/xuecheng/media/model/po/MqMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-model/target/classes/com/xuecheng/media/model/po/MqMessageHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/config/MinioConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaFilesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaFilesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MqMessageHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MqMessageHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MqMessageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MqMessageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/MediaFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/resources/log4j2-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/test/java/com/xuecheng/MediaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/config/MybatisPlusConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MediaFilesMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MediaFilesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MediaProcessHistoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MediaProcessHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MediaProcessMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MediaProcessMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MqMessageHistoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MqMessageHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MqMessageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MqMessageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/MediaFileService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/impl/MediaFileServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/log4j2-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/resources/log4j2-dev.xml" afterDir="false" />
+    <list default="true" id="381a4489-8aae-4e58-b7ed-b4b6966aaec4" name="变更" comment="增加媒资模块的图片上传功能">
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-03/error.2023-06-03-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-03/info.2023-06-03-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-03/info.2023-06-03-21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-06/error.2023-06-06-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-06/error.2023-06-06-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-06/info.2023-06-06-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-06/info.2023-06-06-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-06/info.2023-06-06-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/error.2023-06-12-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/error.2023-06-12-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/error.2023-06-12-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/info.2023-06-12-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/info.2023-06-12-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/info.2023-06-12-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/info.2023-06-12-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/info.2023-06-12-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/info.2023-06-12-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/info.2023-06-12-21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-12/info.2023-06-12-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/error.2023-06-13-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/error.2023-06-13-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/error.2023-06-13-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/error.2023-06-13-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/error.2023-06-13-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/error.2023-06-13-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/error.2023-06-13-21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-13/info.2023-06-13-21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/error.2023-06-14-00.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/error.2023-06-14-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/error.2023-06-14-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/error.2023-06-14-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/info.2023-06-14-00.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/info.2023-06-14-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/info.2023-06-14-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/info.2023-06-14-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/info.2023-06-14-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/info.2023-06-14-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-14/info.2023-06-14-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-15/error.2023-06-15-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-15/error.2023-06-15-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-15/error.2023-06-15-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-15/info.2023-06-15-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-15/info.2023-06-15-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-15/info.2023-06-15-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-16/error.2023-06-16-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-16/error.2023-06-16-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-16/error.2023-06-16-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-16/info.2023-06-16-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-16/info.2023-06-16-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-16/info.2023-06-16-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-16/info.2023-06-16-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-17/error.2023-06-17-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-17/error.2023-06-17-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-17/error.2023-06-17-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-17/info.2023-06-17-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-17/info.2023-06-17-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-17/info.2023-06-17-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-17/info.2023-06-17-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-06-17/info.2023-06-17-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/model/RestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/IDCardUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/IPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/Mp4VideoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/PaymentUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/PhoneUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/RSAUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/RandomStringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/utils/VideoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/media/api/BigFilesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/MediaProcessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/jobhandler/SampleXxlJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/jobhandler/VideoTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-test/xc-content-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/MediaFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/MediaFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/test/java/com/xuecheng/MediaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/test/java/com/xuecheng/MediaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MediaProcessMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/mapper/MediaProcessMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/MediaFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/MediaFileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/impl/MediaFileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/impl/MediaFileServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +159,7 @@
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="file://$PROJECT_DIR$/api-test/xc-content-api.http" environment="dev" />
+    <file url="file://$PROJECT_DIR$/api-test/xc-media-api.http" environment="dev" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -182,7 +194,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "dev__1.0",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/baiduDownlod/学成在线项目—资料/day05 媒资管理 Nacos Gateway MinIO/代码/xuecheng-plus-project/xuecheng-plus-project",
+    "last_opened_file_path": "E:/java/xuecheng-plus/xuecheng-plus-project/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -190,7 +202,8 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "rest.client.default.execution.environment": "dev",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "1008b121595fb78d0cf9914a2eb451a4",
     "vue.rearranger.settings.migration": "true"
   },
@@ -207,11 +220,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-media\xuecheng-plus-media-service\src\main\java\com\xuecheng\media\service" />
+      <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-media\xuecheng-plus-media-service\src\main\java\com\xuecheng\media\config" />
+      <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-base\src\main\java\com\xuecheng\base" />
+      <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-base\src\main\java\com\xuecheng\base\model" />
       <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-gateway\src\main\resources" />
-      <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-system\xuecheng-plus-system-service\src\main\resources" />
-      <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-model\src\main\java\com\xuecheng\content\model\dto" />
-      <recent name="E:\java\xuecheng-plus\xuecheng-plus-project" />
-      <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\src\main\java\com\xuecheng\content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\java\xuecheng-plus\xuecheng-plus-project\xuecheng-plus-media\xuecheng-plus-media-service\src" />
@@ -233,7 +246,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MediaTest.upload_Test">
+  <component name="RunManager" selected="Spring Boot.MediaApplication 2">
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="null" />
       <option name="file" value="" />
@@ -245,7 +258,10 @@
       <option name="remappingSrcs" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xc-content-api | 课程查询列表" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="6" requestIdentifier="课程查询列表" runType="运行单个请求">
+    <configuration name="xc-content-api | 查询课程分类" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" requestIdentifier="查询课程分类" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-content-api | 查询某个课程的课程计划" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="5" requestIdentifier="查询某个课程的课程计划" runType="运行单个请求">
       <method v="2" />
     </configuration>
     <configuration name="xc-content-api | 查询某个课程的课程计划" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="5" requestIdentifier="查询某个课程的课程计划" runType="运行单个请求">
@@ -254,11 +270,40 @@
     <configuration name="xc-content-api | 查询课程分类" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" requestIdentifier="查询课程分类" runType="运行单个请求">
       <method v="2" />
     </configuration>
-    <configuration name="xc-content-api | 查询课程分类" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" requestIdentifier="查询课程分类" runType="运行单个请求">
+    <configuration name="xc-media-api | 上传文件" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-media-api.http" requestIdentifier="上传文件" runType="运行单个请求">
       <method v="2" />
     </configuration>
-    <configuration name="xc-content-api | 查询某个课程的课程计划" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="5" requestIdentifier="查询某个课程的课程计划" runType="运行单个请求">
-      <method v="2" />
+    <configuration name="MediaTest.testChunk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-media-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.MediaTest" />
+      <option name="METHOD_NAME" value="testChunk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaTest.testMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-media-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.MediaTest" />
+      <option name="METHOD_NAME" value="testMerge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MediaTest.upload_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xuecheng-plus-media-service" />
@@ -304,6 +349,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MediaApplication 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xuecheng-plus-media-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.MediaApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=63051 -Dxxl.job.executor.port=9998" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="xuecheng-plus-media-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.MediaApplication" />
@@ -337,18 +401,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP 请求.xc-content-api | 查询某个课程的课程计划" />
+      <item itemvalue="HTTP 请求.xc-content-api | 查询课程分类" />
+      <item itemvalue="HTTP 请求.xc-media-api | 上传文件" />
+      <item itemvalue="JUnit.MediaTest.testChunk" />
+      <item itemvalue="JUnit.MediaTest.testMerge" />
       <item itemvalue="JUnit.MediaTest.upload_Test" />
       <item itemvalue="Spring Boot.ContentApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MediaApplication 2" />
       <item itemvalue="Spring Boot.MediaApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MediaApplication" />
+        <item itemvalue="JUnit.MediaTest.testMerge" />
+        <item itemvalue="JUnit.MediaTest.testChunk" />
+        <item itemvalue="HTTP 请求.xc-media-api | 上传文件" />
         <item itemvalue="JUnit.MediaTest.upload_Test" />
-        <item itemvalue="HTTP 请求.xc-content-api | 查询某个课程的课程计划" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +452,14 @@
       <workItem from="1685516104516" duration="20531000" />
       <workItem from="1685601028080" duration="20290000" />
       <workItem from="1685703939875" duration="10634000" />
-      <workItem from="1685775329519" duration="12822000" />
+      <workItem from="1685775329519" duration="14986000" />
+      <workItem from="1685880108036" duration="5012000" />
+      <workItem from="1685926109431" duration="2588000" />
+      <workItem from="1685929165832" duration="3996000" />
+      <workItem from="1686012766222" duration="11297000" />
+      <workItem from="1686296202987" duration="158000" />
+      <workItem from="1686296375960" duration="10263000" />
+      <workItem from="1686532717952" duration="35200000" />
     </task>
     <task id="LOCAL-00001" summary="提交.gitignore">
       <created>1684900388198</created>
@@ -426,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685615074918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加媒资模块的图片上传功能">
+      <created>1685796942646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685796942646</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +548,19 @@
     <MESSAGE value="课程模块的部分接口文档的发布和测试" />
     <MESSAGE value="课程计划查询,新增,修改,全局异常处理" />
     <MESSAGE value="课程的删除,教师的添加,修改,删除,课程计划的排序,上移,下移" />
-    <option name="LAST_COMMIT_MESSAGE" value="课程的删除,教师的添加,修改,删除,课程计划的排序,上移,下移" />
+    <MESSAGE value="增加媒资模块的图片上传功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加媒资模块的图片上传功能" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/jobhandler/VideoTask.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,7 @@
 package com.xuecheng.content.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.xuecheng.content.model.dto.BindTeachplanMediaDto;
 import com.xuecheng.content.model.po.TeachplanMedia;
 
 /**
@@ -12,5 +13,7 @@ import com.xuecheng.content.model.po.TeachplanMedia;
  * @since 2023-02-11
  */
 public interface TeachplanMediaService extends IService<TeachplanMedia> {
+
+    TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto);
 
 }

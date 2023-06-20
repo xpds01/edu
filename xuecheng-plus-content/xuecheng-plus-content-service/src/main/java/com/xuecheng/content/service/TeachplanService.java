@@ -1,9 +1,11 @@
 package com.xuecheng.content.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.xuecheng.content.model.dto.BindTeachplanMediaDto;
 import com.xuecheng.content.model.dto.SaveTeachplanDto;
 import com.xuecheng.content.model.dto.TeachplanDto;
 import com.xuecheng.content.model.po.Teachplan;
+import com.xuecheng.content.model.po.TeachplanMedia;
 
 import java.util.List;
 
@@ -25,4 +27,5 @@ public interface TeachplanService extends IService<Teachplan> {
     void moveUp(Long teachplanId);
 
     void moveDown(Long teachplanId);
+
 }
